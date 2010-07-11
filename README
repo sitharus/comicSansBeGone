@@ -1,6 +1,8 @@
 A Safari extension to strip Comic Sans MS from any page on the internet.
 
 This code is released on the following conditions:
- - If you use the code you must remove all references to "Phillip Hutchings" and sitharus.com from the code
+ - If you redistribute you must remove all references to "Phillip Hutchings" and sitharus.com from the code, or talk to me nicely.
+
+You are welcome to fork to implement features, I'll consider all pull requests.
 
 Other than that it's so simple you can do whatever.

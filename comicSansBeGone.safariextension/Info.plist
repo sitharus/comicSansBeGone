@@ -11,9 +11,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.2</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -27,7 +27,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Removes comic sans from the intertubes</string>
+	<string>Replaces Comic Sans MS with Helvetica</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -40,7 +40,9 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://www.sitharus.com/files/comicSansBeGone.plist</string>
 	<key>Website</key>
-	<string>http://www.sitharus.com/comic-sans-be-gone</string>
+	<string>http://www.sitharus.com/comic-sans-be-gone.html</string>
 </dict>
 </plist>

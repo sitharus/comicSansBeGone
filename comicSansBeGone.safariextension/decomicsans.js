@@ -1,11 +1,13 @@
 var stylesheets = document.styleSheets
 var cs = /comic sans ms/i
 var replaceComicSans = function(el) {
-    if (cs.test(el.style.fontFamily)) {
-        el.style.fontFamily = el.style.fontFamily.replace(cs, 'Helvetica')
-    }
-    if (cs.test(el.style.font)) {
-        el.style.font = el.style.font.replace(cs, "Helvetica")
+    if (el && el.style) {
+        if (cs.test(el.style.fontFamily)) {
+            el.style.fontFamily = el.style.fontFamily.replace(cs, 'Helvetica')
+        }
+        if (cs.test(el.style.font)) {
+            el.style.font = el.style.font.replace(cs, "Helvetica")
+        }
     }
 }
 

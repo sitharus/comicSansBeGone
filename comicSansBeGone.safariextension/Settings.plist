@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array/>
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>replaceComicSans</string>
+		<key>Title</key>
+		<string>Replace Comic Sans</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>replaceArial</string>
+		<key>Title</key>
+		<string>Replace Arial</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>Helvetica</string>
+		<key>Key</key>
+		<string>replaceWith</string>
+		<key>Title</key>
+		<string>Replace With</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+</array>
 </plist>

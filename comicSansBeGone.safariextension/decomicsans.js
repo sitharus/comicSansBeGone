@@ -25,7 +25,7 @@ var handleMessage = function(event) {
         }
     }
 
-    var styledElements = document.querySelectorAll("*[style*='font']")
+    var styledElements = document.querySelectorAll("*[style*='font'],*[style*='FONT'],*[style*='Font']")
     for (var i = 0; i < styledElements.length; i++) {
         var s = styledElements[i]
         replaceFonts(s)
